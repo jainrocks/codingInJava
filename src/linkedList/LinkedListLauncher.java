@@ -1,3 +1,5 @@
+package linkedList;
+
 /**
  * Created by nitish.jain on 09/06/19.
  */
