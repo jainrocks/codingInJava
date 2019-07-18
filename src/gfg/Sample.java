@@ -6,7 +6,7 @@ public class Sample {
 class student{
 	
 }
-class Test{
+class Test2{
 	public static void main (String[] args) {
 		System.out.println("Class File Structure");
 	}
