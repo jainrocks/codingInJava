@@ -1,4 +1,4 @@
-package com.example.gfg;
+package GFG;
 
 enum City {
 	Noida, Gurgaon, Delhi;
@@ -14,15 +14,15 @@ public class EnumExample {
 	}
 }
 
-class Switchcase {
+class SwitchCase {
 
 	City c1;
 
-	public Switchcase(City c1) {
+	public SwitchCase(City c1) {
 		this.c1 = c1;
 	}
 
-	public void mycity() {
+	public void myCity() {
 
 		switch (c1) {
 
@@ -38,8 +38,8 @@ class Switchcase {
 		String s = "Delhi";
 		// valueOf() method returns the enum constant of the specified string value, if
 		// exists.
-		Switchcase sw = new Switchcase(City.valueOf(s));
-		sw.mycity();
+		SwitchCase sw = new SwitchCase(City.valueOf(s));
+		sw.myCity();
 
 	}
 

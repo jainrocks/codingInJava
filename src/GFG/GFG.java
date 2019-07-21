@@ -1,4 +1,4 @@
-package com.example.gfg;
+package GFG;
 
 //A java program to print GeeksForGeeks
 public class GFG {

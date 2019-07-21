@@ -1,4 +1,4 @@
-package com.example.gfg;
+package GFG;
 
 //example to demonstrate boolean data type and byte data type
 //byte data type, an 8 bit signed two's complement integer, can have values from -128 to 127

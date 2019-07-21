@@ -1,4 +1,4 @@
-package com.example.gfg;
+package GFG;
 
 /**
  * Program to demonstrate working of a class type object created by JVM to 
@@ -28,7 +28,7 @@ public class Test {
 		// Returns an array containing Method objects reflecting all
 		// the declared methods of the class or interface represented by this Class
 		// object
-		Method m[] = c.getDeclaredMethods();
+		Method[] m = c.getDeclaredMethods();
 
 		// printing each method
 		for (Method method : m)
@@ -36,7 +36,7 @@ public class Test {
 		// getting all fields of student class
 		// Returns an array of Field objects reflecting all the fields
 		// declared by the class or interface represented by this Class object.
-		Field f[] = c.getDeclaredFields();
+		Field[] f = c.getDeclaredFields();
 		for (Field field : f)
 			System.out.println(field.getName());
 

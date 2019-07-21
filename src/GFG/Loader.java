@@ -1,4 +1,4 @@
-package com.example.gfg;
+package GFG;
 
 //class loader, bootstrap class loader, a platform specific machine instructions that kick off the whole classloading process.
 
