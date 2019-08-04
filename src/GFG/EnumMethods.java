@@ -1,4 +1,4 @@
-package com.example.gfg;
+package GFG;
 
 
 enum Cities {
